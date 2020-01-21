@@ -31,5 +31,9 @@
 *.out
 *.app
 
-# Directories
+# Directories and files
 materials/
+*.pdf
+*.mp4
+*.jpg
+*.png
