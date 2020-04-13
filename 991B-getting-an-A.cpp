@@ -28,16 +28,16 @@ int main()
 
     if (5 != avg)
     {
-	    for (int i = 0; i < n; i++)
-	    {
-		    sum += (5 - labGrades[i]);
-		    avg = getRoundedAVG(sum, n);
-		    minLabWorks++;
+        for (int i = 0; i < n; i++)
+        {
+            sum += (5 - labGrades[i]);
+            avg = getRoundedAVG(sum, n);
+            minLabWorks++;
 		    if (5 == avg)
-		    {
-			    break;
-		    }
-	    }
+            {
+                break;
+            }
+        }
     }
 
     cout << minLabWorks << endl;
