@@ -10,7 +10,7 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-	  int n;
+	int n;
     bool happy = false;
     cin >> n;
     vector< pair<int,int> > vec;
